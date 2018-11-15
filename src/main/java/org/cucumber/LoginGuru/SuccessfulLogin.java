@@ -11,7 +11,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class SuccessfulLogin {
-	static WebDriver driver;
+	public static WebDriver driver;
 	@Given("User is in Guru Home page")
 	public void user_is_in_Guru_Home_page() {
 	   
